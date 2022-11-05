@@ -6,7 +6,7 @@ let company = {
 };
 
 if (company[`yearlyRevenue`] >= 1000000){
-    console.log(`Congrats ${company[`name`]} ${company[`ceo`]} ${company[`numberOfEmployees`]}`);
+    console.log(`Congratulations ${company[`name`]} for one million! ${company[`ceo`]} ${company[`numberOfEmployees`]}`);
 } else{
     console.log(`Keep going Cloudpunch, you can do it`);
 }
